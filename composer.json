@@ -1,0 +1,38 @@
+{
+    "name": "pardnchiu/redis",
+    "description": " A lightweight Redis client wrapper for PHP, providing simplified Redis operations with automatic connection management. Built on top of Predis.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "邱敬幃 Pardn Chiu",
+            "email": "dev@pardn.io"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0",
+        "predis/predis": "^2.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "PD\\": "src/"
+        },
+        "exclude-from-classmap": [
+            ".gitignore",
+            "*.md",
+            "composer.json"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {}
+    },
+    "scripts": {},
+    "extra": {
+        "branch-alias": {}
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
