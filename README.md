@@ -3,7 +3,7 @@
 > A lightweight Redis client wrapper for PHP, providing simplified Redis operations with automatic connection management. Built on top of Predis.
 
 ![tag](https://img.shields.io/badge/tag-PHP%20Library-bb4444) 
-![size](https://img.shields.io/github/size/pardnchiu/PHP-Redis/src/SQL.php)<br>
+![size](https://img.shields.io/github/size/pardnchiu/PHP-Redis/src/Redis.php)<br>
 ![version](https://img.shields.io/packagist/v/pardnchiu/redis)
 ![download](https://img.shields.io/packagist/dm/pardnchiu/redis)
 
