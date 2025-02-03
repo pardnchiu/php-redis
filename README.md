@@ -1,6 +1,6 @@
 # PD\Redis
 
-> A lightweight Redis client wrapper for PHP, providing simplified Redis operations with automatic connection management. Built on top of Predis.
+> PD\Redis is a PHP Redis client wrapper built on Predis, offering simplified Redis operations with automatic connection management.
 
 ![tag](https://img.shields.io/badge/tag-PHP%20Library-bb4444) 
 ![size](https://img.shields.io/github/size/pardnchiu/PHP-Redis/src/Redis.php)<br>
@@ -17,9 +17,18 @@
 - Connection state monitoring
 - Automatic cleanup on destruction
 
+## Key Capabilities
+
+- Simple get/set operations with database selection
+- Automatic connection retry mechanism
+- Expiration time management
+- Connection status checking
+- Environment variables configuration
+- Persistent connection support
+
 ## Required Environment Variables
 
-```
+```SHELL
 REDIS_HOST=localhost    # Required: Redis server host
 REDIS_PORT=6379         # Required: Redis server port
 REDIS_PASSWORD=secret   # Optional: Redis server password
