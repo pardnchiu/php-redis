@@ -5,10 +5,11 @@
     "keywords": [
         "redis",
         "cache",
-        "database",
+        "session",
         "predis",
-        "client",
-        "php"
+        "php",
+        "pardnchiu",
+        "邱敬幃"
     ],
     "homepage": "https://pardn.io",
     "license": "MIT",
