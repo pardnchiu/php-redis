@@ -1,66 +1,65 @@
 {
-    "name": "pardnchiu/redis",
-    "description": "PD\\Redis is a PHP Redis client wrapper built on Predis, offering simplified Redis operations with automatic connection management.",
-    "type": "library",
-    "keywords": [
-        "redis",
-        "cache",
-        "session",
-        "predis",
-        "php",
-        "pardnchiu",
-        "邱敬幃"
-    ],
-    "homepage": "https://pardn.io",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "邱敬幃 Pardn Chiu",
-            "email": "dev@pardn.io",
-            "homepage": "https://pardn.io",
-            "role": "Developer"
-        }
-    ],
-    "support": {
-        "email": "dev@pardn.io",
-        "issues": "https://github.com/pardnchiu/PHP-Redis/issues",
-        "source": "https://github.com/pardnchiu/PHP-Redis",
-        "docs": "https://github.com/pardnchiu/PHP-Redis/blob/main/README.md"
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true,
-    "require": {
-        "php": ">=8.0",
-        "predis/predis": "^2.0"
-    },
-    "require-dev": {},
-    "autoload": {
-        "psr-4": {
-            "PD\\": "src/"
-        },
-        "exclude-from-classmap": [
-            ".gitignore",
-            "*.md",
-            "composer.json"
-        ]
-    },
-    "autoload-dev": {
-        "psr-4": {}
-    },
-    "scripts": {},
-    "extra": {
-        "branch-alias": {}
-    },
-    "config": {
-        "sort-packages": true,
-        "optimize-autoloader": true,
-        "preferred-install": "dist"
-    },
-    "archive": {
-        "exclude": [
-            "/.git",
-            "/*.md",
-            "/.gitignore"
-        ]
+  "name": "pardnchiu/redis-cli",
+  "description": "Lightweight PHP Redis client supporting cache operations, automatic connection management, and complete Redis functionality. Built on native Redis extension, providing stable and reliable cache operation experience.",
+  "type": "library",
+  "keywords": [
+    "redis",
+    "cache",
+    "session",
+    "php",
+    "pardnchiu",
+    "邱敬幃"
+  ],
+  "homepage": "https://pardn.io",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "邱敬幃 Pardn Chiu",
+      "email": "dev@pardn.io",
+      "homepage": "https://pardn.io",
+      "role": "Developer"
     }
+  ],
+  "support": {
+    "email": "dev@pardn.io",
+    "issues": "https://github.com/pardnchiu/PHP-Redis/issues",
+    "source": "https://github.com/pardnchiu/PHP-Redis",
+    "docs": "https://github.com/pardnchiu/PHP-Redis/blob/main/README.md"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=8.0",
+    "ext-redis": "*"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "pardnchiu\\": "src/"
+    },
+    "exclude-from-classmap": [
+      ".gitignore",
+      "*.md",
+      "composer.json"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {}
+  },
+  "scripts": {},
+  "extra": {
+    "branch-alias": {}
+  },
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true,
+    "preferred-install": "dist"
+  },
+  "archive": {
+    "exclude": [
+      "/.git",
+      "/*.md",
+      "/.gitignore"
+    ]
+  }
 }
